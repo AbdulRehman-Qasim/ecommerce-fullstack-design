@@ -1,0 +1,24 @@
+business-nexus-backend
+├── controllers
+│   ├── authController.js
+│   ├── profileController.js
+│   └── chatController.js
+├── middlewares
+│   ├── authMiddleware.js
+│   └── errorMiddleware.js
+├── models
+│   ├── User.js
+│   ├── Profile.js
+│   ├── Request.js
+│   └── Chat.js
+├── routes
+│   ├── authRoutes.js
+│   ├── profileRoutes.js
+│   ├── requestRoutes.js
+│   └── chatRoutes.js
+├── config
+│   └── db.js
+├── .env
+├── server.js
+├── package.json
+└── README.md
