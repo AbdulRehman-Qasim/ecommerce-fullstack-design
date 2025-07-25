@@ -1,5 +1,5 @@
 
-# Nexus Business - Frontend
+#  Business Nexus - Frontend
 
 A modern and responsive user interface for the Nexus Business platform, built using **React** and **Tailwind CSS**. This platform connects **investors** and **entrepreneurs**, allowing them to collaborate, communicate, and build partnerships.
 
