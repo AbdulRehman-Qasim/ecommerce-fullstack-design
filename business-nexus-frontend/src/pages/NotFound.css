@@ -1,0 +1,64 @@
+/* Full-page gradient background */
+.notfound-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to left, #9333ea, #4f46e5);
+  font-family: var(--font-main);
+  padding: 20px;
+}
+
+/* Glass-style centered card */
+.notfound-card {
+  width: 100%;
+  max-width: 480px;
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--color-white);
+  text-align: center;
+}
+
+/* Big 404 heading */
+.notfound-title {
+  font-size: 5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+/* Subtitle */
+.notfound-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #f3f4f6;
+}
+
+/* Text message */
+.notfound-text {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #e0e7ff;
+}
+
+/* Button */
+.notfound-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.notfound-button:hover {
+  background-color: var(--color-primary-dark);
+}

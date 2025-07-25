@@ -1,0 +1,53 @@
+src/
+├── assets/
+│   └── logo.png                     # Logo (optional)
+│
+├── components/
+│   ├── Button.jsx
+│   ├── Button.css
+│   ├── InputField.jsx
+│   ├── InputField.css
+│   ├── Avatar.jsx
+│   ├── Avatar.css
+│   └── Card.jsx
+│       Card.css
+│
+├── context/
+│   └── AuthContext.jsx              # Auth provider (optional)
+│
+├── layouts/
+│   ├── DashboardLayout.jsx
+│   ├── DashboardLayout.css
+│   └── Navbar.jsx
+│       Navbar.css
+│
+├── pages/
+│   ├── Login.jsx
+│   ├── Login.css
+│   ├── Register.jsx
+│   ├── Register.css
+│   ├── InvestorDashboard.jsx
+│   ├── InvestorDashboard.css
+│   ├── EntrepreneurDashboard.jsx
+│   ├── EntrepreneurDashboard.css
+│   ├── InvestorProfile.jsx
+│   ├── InvestorProfile.css
+│   ├── EntrepreneurProfile.jsx
+│   ├── EntrepreneurProfile.css
+│   ├── ChatPage.jsx
+│   ├── ChatPage.css
+│   └── NotFound.jsx                # 404 Page
+│       NotFound.css
+│
+├── services/
+│   ├── authService.js               # login, register
+│   ├── profileService.js            # get/update profile
+│   ├── requestService.js            # send/view requests
+│   └── chatService.js               # send/receive messages
+│
+├── styles/
+│   └── variables.css                # Global colors, fonts (optional)
+│
+├── App.jsx
+├── App.css                          # Base app styles (optional)
+├── main.jsx

@@ -1,0 +1,84 @@
+/* Sticky topbar container */
+.main-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-main);
+  color: var(--color-white);
+}
+
+/* Logo on the left */
+.navbar-logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Role display in center */
+.navbar-center {
+  flex: 1;
+  text-align: center;
+}
+
+.navbar-role {
+  font-size: 0.95rem;
+  color: #e0e7ff;
+}
+
+/* Button group on right */
+.navbar-right {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.navbar-right button {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-right button:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-right .logout {
+  background-color: rgba(255, 0, 0, 0.15);
+  color: #f87171;
+}
+
+.navbar-right .logout:hover {
+  background-color: rgba(255, 0, 0, 0.25);
+  color: #ffffff;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .main-navbar {
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: center;
+  }
+
+  .navbar-right {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .navbar-center {
+    order: -1;
+  }
+}

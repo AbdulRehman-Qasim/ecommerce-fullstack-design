@@ -1,0 +1,124 @@
+/* Page layout */
+.investor-dashboard-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, #4f46e5, #9333ea);
+  padding: 2rem;
+  font-family: var(--font-main);
+  color: var(--color-white);
+}
+
+/* Page title */
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Dashboard stats grid */
+.dashboard-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+/* Stat cards */
+.stat-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.stat-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #e0e7ff;
+}
+
+.stat-card p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Suggested section */
+.suggested-section {
+  margin-top: 2rem;
+}
+
+.suggested-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Entrepreneur cards grid */
+.entrepreneur-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Each entrepreneur card */
+.entrepreneur-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #f3f4f6;
+}
+
+.entrepreneur-card h3 {
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.entrepreneur-card p {
+  font-size: 0.95rem;
+  margin: 0.25rem 0;
+}
+
+/* Buttons */
+.card-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.card-buttons button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
+}
+
+.card-buttons button:first-child {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.card-buttons button:first-child:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.card-buttons .secondary {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #e0e7ff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card-buttons .secondary:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
