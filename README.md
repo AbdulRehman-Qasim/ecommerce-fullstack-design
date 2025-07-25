@@ -1,5 +1,3 @@
-# ecommerce-fullstack-design
-A full-featured E-commerce app with product browsing, cart, checkout, and user authentication. Built using modern web technologies with responsive UI and admin controls for product/order management
 
 # Nexus Business - Frontend
 
@@ -49,7 +47,7 @@ Feel free to fork the repo, open issues, or submit pull requests.
 
 ---
 
-## 📦 `nexus-business-backend/README.md`
+## 📦 nexus-business-backend
 
 ```markdown
 # Nexus Business - Backend
